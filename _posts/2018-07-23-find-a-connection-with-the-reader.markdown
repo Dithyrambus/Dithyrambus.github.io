@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Find a connection with the reader
+title:  第一次用jeklly写博客得好好记录一下
 date:   2018-07-24 15:01:35 +0300
 image:  02.jpg
 tags:   Resources
