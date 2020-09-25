@@ -1,8 +1,8 @@
 #-------------------------------
 # General Site Settings
 title: 让你先写两行
-logo: logo.svg # You can add own logo.
-description: 这是我在Jekyll下载的主题
+logo: logo.png # You can add own logo.
+description: Zolan is modern minimal theme for Jekyll
 
 
 #-------------------------------
@@ -11,7 +11,7 @@ author:
   name: Alex Rodriguez
   image: 01.jpg
   say-hello: Hello, I’m <strong>被窝探险家</strong>
-  bio: Designs, talks, and writes about <strong>web</strong>, <strong>java</strong>, and idea. 哎呀，不吹牛逼了。没事儿我溜达！. Loves <a href="#">music</a> & code.
+  bio: Designs, talks, and writes about <strong>Web</strong>, <strong>Java</strong>, <strong>Travel</strong>, and idea. 这是我的博客，我将在这里分享我的成长过程。
 
 
 #-------------------------------

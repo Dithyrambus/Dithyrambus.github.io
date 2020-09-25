@@ -1,51 +1,58 @@
 ---
 layout: post
-title:  第一次用jeklly写博客得好好记录一下
-date:   2018-07-24 15:01:35 +0300
+title:  第一次写博客，记录一下我用jekyll的过程...
+date:   2020-07-21 19:54:35 +0300
 image:  02.jpg
-tags:   Resources
+tags:   Myblog
 ---
-Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments." Noooooo! Perhaps, but perhaps your civilization is merely the sewer of an even greater society above you!
+**第一步：准备一个GitHub账号，新建一个Repository。用自己的“名字.github.io"命名。**
 
-You lived before you met me?! Ow, my spirit! Humans dating robots is sick. __You people wonder why I'm still single?__ *It's 'cause all the fine robot sisters are dating humans!* I guess if you want children beaten, you have to do it yourself.
+**第二步：在本地安装Jekyll，推荐查阅官网:https://www.jekyll.com.cn/docs/installation/。**
 
-## Are you crazy? I can't swallow that.
+**第三步：去Jekyll themes官网选自己喜欢的blog模板。然后可以fork到你自己的仓库，或者下载到本地,自己改好后git上去。连接：http://jekyllthemes.org/**
 
-Oh, I don't have time for this. I have to go and buy a single piece of fruit with a coupon and then return it, making people wait behind me while I complain. Meh. So, how 'bout them Knicks? Also Zoidberg.
 
-1. We need rest. The spirit is willing, but the flesh is spongy and bruised.
-2. Fry, we have a crate to deliver.
-3. Have you ever tried just turning off the TV, sitting down with your children, and hitting them?
 
-### Why not indeed!
+## First.
 
-Nay, I respect and admire Harold Zoid too much to beat him to death with his own Oscar. I don't 'need' to drink. I can quit anytime I want! Soothe us with sweet lies. Bender?! You stole the atom. You don't know how to do any of those.
+1. 准备一个github账号，有手就会，不说了吧。
 
-* Shinier than yours, meatbag.
-* This is the worst part. The calm before the battle.
-* Ooh, name it after me!
+2. 新建一个repository。for example 我的github名字叫dithyrambus，所以新建一个这样的仓库。
 
-Say what? Throw her in the brig. Hey, you add a one and two zeros to that or we walk! You guys aren't Santa! You're not even robots. How dare you lie in front of Jesus? Ow, my spirit! Who's brave enough to fly into something we all keep calling a death sphere?
+   ![1600692188098]({{ site.baseurl }}/images/first1.png)
 
-Hey, you add a one and two zeros to that or we walk! You won't have time for sleeping, soldier, not with all the bed making you'll be doing. It's okay, Bender. I like cooking too. Hey, what kinda party is this? There's no booze and only one hooker.
+***
 
-![]({{ site.baseurl }}/images/07.jpg)
-*Minimalism*
+### Second!
 
-Ummm…to eBay? But I know you in the future. I cleaned your poop. I'm just glad my fat, ugly mama isn't alive to see this day. My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards.
+**1.**在RubyInstaller下载Ruby+Devkit,一直下一步，最后执行ridk安装。
 
-Your best is an idiot! Fry, you can't just sit here in the dark listening to classical music. And remember, don't do anything that affects anything, unless it turns out you were supposed to, in which case, for the love of God, don't not do it!
+**2.**在开始菜单打开一个新的名利提示符窗口，官网说这样对PATH环境变量的更改就会生效。
 
-You, a bobsleder!? That I'd like to see! I'm Santa Claus! There's no part of that sentence I didn't like! Noooooo! I can explain. It's very valuable.
+![1600780425114]({{site.baseurl}}/images/second1.png)
 
-I'm Santa Claus! Is the Space Pope reptilian!? Who's brave enough to fly into something we all keep calling a death sphere? I had more, but you go ahead.
+我这安装完之后正好有一个这个，打开安装Jekyll和bundler，via： **gem install jekyll bundler** 
 
-It doesn't look so shiny to me. Kif might! You guys aren't Santa! You're not even robots. How dare you lie in front of Jesus? Oh, but you can. But you may have to metaphorically make a deal with the devil. And by "devil", I mean Robot Devil. And by "metaphorically", I mean get your coat.
+安装之后检查一下。via：**jekyll -v**
 
-Check it out, y'all. Everyone who was invited is here. Anyone who laughs is a communist! You're going to do his laundry? Michelle, I don't regret this, but I both rue and lament it.
+**3.**你可以在./myblog 目录下新建一个全新的jekyll网站。via：**jekyll new myblog**
 
-Bender, we're trying our best. I daresay that Fry has discovered the smelliest object in the known universe! Oh, you're a dollar naughtier than most. Hi, I'm a naughty nurse, and I really need someone to talk to. $9.95 a minute.
+然后cd进去，然后启动本地服务器 via：**bundle exec jekyll serve**.
 
-You, a bobsleder!? That I'd like to see! No! The kind with looting and maybe starting a few fires! Good news, everyone! There's a report on TV with some very bad news! When I was first asked to make a film about my nephew, Hubert Farnsworth, I thought "Why should I?" Then later, Leela made the film. But if I did make it, you can bet there would have been more topless women on motorcycles. Roll film!
+**4.**然后方问localhost：4000，里边是空的，意思是让你自己往里边写，那谁会啊，赶紧去jekyllthemes下载一个现成的，往下看
 
-Eeeee! Now say "nuclear wessels"! Why did you bring us here? Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments." That's the ONLY thing about being a slave.
+****
+
+### Third.
+
+**1.**直接去Jekyll themes官网选自己喜欢的blog模板。你可以先fork到自己仓库。在github上边改，但是生效有点慢，要刷新好多次才有效果，所以在这里我们下载到本地，然后用启动jekyll服务器，查看效果比较方便。
+
+**2.**下载到本地，解压好，在文件目录里直接进黑窗口。(注意文件夹目录不要有中文，会发生不好的事情！！)
+
+![]({{site.baseurl}}\images\third1.png)
+
+**3.**然后    via：**bundle install**            接着 via: **bundle exec jekyll server**
+
+再然后你会看见这样的结果，如多报错你可以baiduzhidao.
+
+![]({{site.baserul}}\images\third2.png)
